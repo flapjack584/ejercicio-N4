@@ -1,2 +1,22 @@
-# ejercicio-N4
-//calcular la sua de lso termin0os de la serie 1/2 + 2/22 + 3/23 + ... + n/2n  #include &lt;iostream>  using namespace std;  int main() {     float N;     float ACUM;     cout&lt;&lt;"ingrese el numero que desea"&lt;&lt;endl;    cin>>N;     for(int i=1;i&lt;=N;i++)     {         ACUM=ACUM+(N/(2*N));     }          cout&lt;&lt;"la suma total es"&lt;&lt;ACUM&lt;&lt;endl;      return 0; }
+//calcular la sua de lso termin0os de la serie 1/2 + 2/22 + 3/23 + ... + n/2n
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float N;
+    float ACUM;
+    cout<<"ingrese el numero que desea"<<endl;    cin>>N;
+    for(int i=1;i<=N;i++)
+    {
+        ACUM=ACUM+(N/(2*N));
+    }
+    
+    cout<<"la suma total es"<<ACUM<<endl;
+
+    return 0;
+}
+
+
